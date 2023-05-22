@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkslateblue;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 13rem
+}
+.all-image-div{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    display: none;
+}
+#slideshow-container{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    margin-top: 1rem;
+}
+/* #image-div-2{
+    display: none;
+}
+#image-div-3{
+    display: none;
+} */
+
+
+
+/* ================================Next and Previous Button==================================== */
+#switch-image-button-container button{
+    border: none;
+    padding: 1.2rem;
+    border-radius: 5rem;
+}
+#switch-image-button-container button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(41, 0, 107);
+}
+#previous-button{
+    position: absolute;
+    right: 72rem;
+    bottom: 35rem;
+}
+#next-button{
+    position: absolute;
+    left: 72rem;
+    bottom: 35rem;
+}
+
+
+/* ====================================Dot buttons=================================================== */
+#dot-button-container button{
+    margin: .5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5rem;
+}
+#dot-button-container button:hover{
+    background-color: rgb(41, 0, 107);
+    cursor: pointer;
+}
