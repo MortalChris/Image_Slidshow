@@ -33,13 +33,6 @@ img{
     height: 30%;
     margin-top: 1rem;
 }
-/* #image-div-2{
-    display: none;
-}
-#image-div-3{
-    display: none;
-} */
-
 
 
 /* ================================Next and Previous Button==================================== */
@@ -76,4 +69,7 @@ img{
 #dot-button-container button:hover{
     background-color: rgb(41, 0, 107);
     cursor: pointer;
+}
+.active{
+    background-color: rgb(41, 0, 107);
 }
